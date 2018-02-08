@@ -160,16 +160,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/xiaomi/land/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/xiaomi/land/proprietary/etc/mixer_paths_qrd_sku2.xml:system/etc/mixer_paths_qrd_sku2.xml \
-    vendor/xiaomi/land/proprietary/etc/mixer_paths_qrd_skuh.xml:system/etc/mixer_paths_qrd_skuh.xml \
-    vendor/xiaomi/land/proprietary/etc/mixer_paths_qrd_skuhf.xml:system/etc/mixer_paths_qrd_skuhf.xml \
-    vendor/xiaomi/land/proprietary/etc/mixer_paths_qrd_skui.xml:system/etc/mixer_paths_qrd_skui.xml \
-    vendor/xiaomi/land/proprietary/etc/mixer_paths_qrd_skum.xml:system/etc/mixer_paths_qrd_skum.xml \
-    vendor/xiaomi/land/proprietary/etc/mixer_paths_qrd_skun.xml:system/etc/mixer_paths_qrd_skun.xml \
-    vendor/xiaomi/land/proprietary/etc/mixer_paths_skuk.xml:system/etc/mixer_paths_skuk.xml \
-    vendor/xiaomi/land/proprietary/etc/mixer_paths_wcd9306.xml:system/etc/mixer_paths_wcd9306.xml \
-    vendor/xiaomi/land/proprietary/etc/mixer_paths_wcd9326.xml:system/etc/mixer_paths_wcd9326.xml \
-    vendor/xiaomi/land/proprietary/etc/mixer_paths_wcd9330.xml:system/etc/mixer_paths_wcd9330.xml \
-    vendor/xiaomi/land/proprietary/etc/mixer_paths_wcd9335.xml:system/etc/mixer_paths_wcd9335.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -188,9 +178,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/land/proprietary/etc/sap.conf:system/etc/sap.conf \
-    vendor/xiaomi/land/proprietary/etc/sound_trigger_mixer_paths_wcd9306.xml:system/etc/sound_trigger_mixer_paths_wcd9306.xml \
-    vendor/xiaomi/land/proprietary/etc/sound_trigger_mixer_paths_wcd9330.xml:system/etc/sound_trigger_mixer_paths_wcd9330.xml \
-    vendor/xiaomi/land/proprietary/etc/sound_trigger_mixer_paths_wcd9335.xml:system/etc/sound_trigger_mixer_paths_wcd9335.xml \
     vendor/xiaomi/land/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/xiaomi/land/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/xiaomi/land/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
@@ -1055,9 +1042,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/xiaomi/land/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/xiaomi/land/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
     vendor/xiaomi/land/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
@@ -1246,9 +1230,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/land/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so:system/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so \
     vendor/xiaomi/land/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
