@@ -158,8 +158,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/ft5336_oufei_720p.ini:system/etc/ft5336_oufei_720p.ini \
     vendor/xiaomi/land/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/xiaomi/land/proprietary/etc/lowi.conf:system/etc/lowi.conf \
-    vendor/xiaomi/land/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
-    vendor/xiaomi/land/proprietary/etc/mixer_paths_qrd_sku2.xml:system/etc/mixer_paths_qrd_sku2.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
