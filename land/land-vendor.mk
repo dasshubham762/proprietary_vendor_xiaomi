@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/xiaomi/land/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/land/proprietary/bin/wcnss_service:system/bin/wcnss_service \
+    vendor/xiaomi/land/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/land/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/land/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/xiaomi/land/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
@@ -201,7 +202,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/land/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/xiaomi/land/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
-    vendor/xiaomi/land/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/xiaomi/land/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/xiaomi/land/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/xiaomi/land/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
@@ -219,8 +220,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/xiaomi/land/proprietary/lib64/libloc_pla.so:system/lib64/libloc_pla.so \
     vendor/xiaomi/land/proprietary/lib64/libloc_stub.so:system/lib64/libloc_stub.so \
-    vendor/xiaomi/land/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
-    vendor/xiaomi/land/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
     vendor/xiaomi/land/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/xiaomi/land/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/xiaomi/land/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
